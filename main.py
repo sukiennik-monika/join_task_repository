@@ -1,6 +1,12 @@
 import join_task
 import os
 
+"""
+Main file to get command from user,
+check its correctness and initiate
+join function work 
+"""
+
 while True:
     command = input(f'Enter the joining command below:\n')
     if command[0:5] == "join " and len(command) > 5:
